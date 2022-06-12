@@ -1,21 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body{
     background-color: #fffbf7;
+}
+main{
+    margin-top: 30px;
+    text-align: center;
 }
 
 h1{
     color: #46484c;
     text-align: center;   
+    font-size: 60px;
 }
 
 p{
+    text-align: center;
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
+    margin: 10px;
+}
+
+form{
+    display: block;
+    height: 55px;
+}
+
+input, button{
+    height: 100%;
+    border-radius: 8px;
+}
+
+input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
 }
 
 button{
     color: #fff;
     background-color: #025157;
+    border: none;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    padding: 6px 20px;
+    margin-left: -10px;
 }
 
 img{
@@ -26,4 +61,8 @@ img{
 
 .capterra{
     width: 730px;
+}
+
+.matcha{
+    width: 70%;
 }

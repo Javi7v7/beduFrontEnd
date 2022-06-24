@@ -7,19 +7,27 @@
 .header > * {
   display: inline-block;
   font-size: 16px;
-  vertical-align: middle;
-  height: 100%;
   line-height: 45px;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .header {
-  margin: 40px 20px;
+  margin: 40px 20px 0;
   /* margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px; */
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
 }
 
 .logo {
@@ -47,8 +55,7 @@
 }
 
 .actions > * {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 0 10px;
 }
 
 .actions a {
@@ -68,6 +75,7 @@
 
 li {
   display: inline;
+  margin: 0 25px 0;
 }
 
 body {
@@ -83,6 +91,7 @@ h1 {
   color: #025157;
   text-align: center;
   font-size: 60px;
+  font-family: 'Alegreya', serif;
 }
 
 p {
@@ -127,12 +136,12 @@ img {
   margin-right: auto;
 }
 
-.capterra {
-  width: 730px;
-}
-
 .matcha {
   width: 70%;
+}
+
+.publish {
+  margin-left: 30px;
 }
 
 .publish h3 {
@@ -181,15 +190,8 @@ iframe{
   margin-top: 10px;
 }
 
-.fixed-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #fffbf7;
-}
-
 .features{
+  margin-top: 5%;
   display: grid;
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
   /*grid-template-columns: repeat(2, 1fr);
@@ -257,6 +259,64 @@ iframe{
   margin-top: 0;
   height: 100%;
 }
-/*.success-stories{
-  background-color: #67b54b;
-}*/
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px){
+  .navbar,
+  .actions{
+    display: none;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .main {
+    margin-top: 110px;
+  }
+  .banner > img{
+    width: 100%;
+  }
+  .publish > form{
+    flex-direction: column;
+  }
+  .publish > form > div{
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish > form > div > input{
+    width: 65%;
+  }
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .explanatory-video > video{
+    width: 100%;
+  }
+  .publish{
+    margin-top: 10px;
+  }
+  .publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}

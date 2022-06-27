@@ -15,9 +15,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- <section class="fixed-header">
@@ -47,58 +50,60 @@
       </header>
     </section>-->
     <!--Barra de navegacion-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light"
-      style="background-color: fffbf7"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="#">
-          <img
-            src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
-            alt="Matcha"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Platform</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Customers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 actions justify-content-end">
-            <!--Acciones de usuario-->
-            <div class="actions">
-              <a href="">Sign in</a>
-              <button>Start free trial</button>
-            </div>
-          </form>
+    <section class="fixed-header">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: fffbf7"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
+              alt="Matcha"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Platform</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+              <!--Acciones de usuario-->
+              <div class="actions">
+                <a href="">Sign in</a>
+                <button>Start free trial</button>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
     <!--Introduccion a la pagina-->
     <section class="main">
       <h1>Construye tu blog...</h1>
@@ -270,9 +275,11 @@
           owners and ecommerce marketers who rely on Matcha for quality content
           and consistent performance from their blogs.
         </p>
-        <form>
-          <button type="submit">Who Uses Matcha?</button>
-        </form>
+        <div>
+          <form>
+            <button type="submit">Who Uses Matcha?</button>
+          </form>
+        </div>
         <figure>
           <img
             src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png"
@@ -417,27 +424,71 @@
     </section>
     <!--Como funciona Matcha-->
     <section class="how-does-it-works">
-      <h1>How does Matcha work?.</h1>
-      <p>
+      <h2 class="title">How does Matcha work?.</h2>
+      <p class="description">
         Your blog can be so much more than window dressing. Use Matcha’s simple
         formula to transform your blog into an ecommerce growth engine.
       </p>
-      <div class="explore">
         <button>Explore the Platform</button>
-      </div>
-      <article>
+      <div class="steps">
         <div class="card" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3208/3208799.png"
+            class="card-img-top"
+            alt="publish"
+          />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Publish</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Effortlessly fill your blog with content that shoppers want to
+              read.
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn">Publish instantly →</a>
           </div>
         </div>
-      </article>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1077/1077221.png"
+            class="card-img-top"
+            alt="publish"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Promote</h5>
+            <p class="card-text">
+              Use articles in email, social, and content ads to attract more site visitors.
+            </p>
+            <a href="#" class="btn">Drive morer site visitors →</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/114/114957.png"
+            class="card-img-top"
+            alt="publish"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Capture</h5>
+            <p class="card-text">
+              Turn readers into email subscribers and subscribers into customers.
+            </p>
+            <a href="#" class="btn">Grow your email list →</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/104/104705.png"
+            class="card-img-top"
+            alt="publish"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Measure</h5>
+            <p class="card-text">
+              See what’s working and what’s not to easily optimize for more traffic, email subscribers, and sales.
+            </p>
+            <a href="#" class="btn">Track performance →</a>
+          </div>
+        </div>
+      </div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

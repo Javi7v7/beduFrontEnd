@@ -43,6 +43,7 @@
 
 .navbar {
   /*width: 70%;*/
+  background-color: #fffbf7;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -92,7 +93,7 @@ h1 {
   color: #025157;
   text-align: center;
   font-size: 60px;
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
 }
 
 p {
@@ -146,7 +147,7 @@ img {
 }
 
 .publish h3 {
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
   font-size: 40px;
   line-height: 48px;
   color: #025157;
@@ -260,7 +261,7 @@ iframe {
   height: 100%;
 }
 
-.success-stories{
+.success-stories {
   display: flex;
   /*flex-direction: column;*/
   align-items: center;
@@ -269,26 +270,26 @@ iframe {
   background-color: #a1d683;
 }
 
-.success-stories .overview{
+.success-stories .overview {
   flex: 2;
   padding-right: 100px;
 }
 
-.success-stories .overview h2{
-  font-family: 'Alegreya',serif;
+.success-stories .overview h2 {
+  font-family: "Alegreya", serif;
   font-size: 51px;
   line-height: 61px;
   color: #025157;
 }
 
-.success-stories .overview p{
+.success-stories .overview p {
   color: #343434;
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
-.success-stories .overview button{
+.success-stories .overview button {
   font-size: 14px;
   padding: 12px 12px 6px 12px;
   border-radius: 8px;
@@ -297,53 +298,53 @@ iframe {
   margin-left: 0;
 }
 
-.success-stories .overview img{
+.success-stories .overview img {
   width: 500px;
   max-width: 100%;
 }
 
-figure{
+figure {
   margin-top: 32px;
 }
 
-.success-stories .stories-carousel{
+.success-stories .stories-carousel {
   flex: 1;
 }
 
-.success-stories .stories-carousel .card{
+.success-stories .stories-carousel .card {
   max-width: 370px;
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
 }
 
-.success-stories .stories-carousel .card .card-media{
+.success-stories .stories-carousel .card .card-media {
   position: relative;
 }
 
 .success-stories .stories-carousel .card .card-body,
-.success-stories .stories-carousel .card .card-footer{
+.success-stories .stories-carousel .card .card-footer {
   padding: 25px;
 }
 
-.success-stories .stories-carousel .card .card-footer{
+.success-stories .stories-carousel .card .card-footer {
   margin-bottom: 20px;
   background-color: unset;
   border-top: unset;
 }
 
-.success-stories .stories-carousel .card .card-media figure{
+.success-stories .stories-carousel .card .card-media figure {
   margin-top: 0;
 }
 
-.success-stories .stories-carousel .card .card-media img{
+.success-stories .stories-carousel .card .card-media img {
   width: 100%;
   max-height: 16vw;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.success-stories .stories-carousel .card .card-media .company{
+.success-stories .stories-carousel .card .card-media .company {
   position: absolute;
   bottom: -20px;
   right: 20px;
@@ -356,11 +357,11 @@ figure{
   align-items: center;
 }
 
-.success-stories .stories-carousel .card .card-media .company img{
+.success-stories .stories-carousel .card .card-media .company img {
   max-width: 75%;
 }
 
-.success-stories .stories-carousel .card .card-body h4{
+.success-stories .stories-carousel .card .card-body h4 {
   color: #025157;
   font-size: 18px;
   font-weight: 600;
@@ -368,29 +369,29 @@ figure{
   margin-bottom: 12px;
 }
 
-.success-stories .stories-carousel .card .card-body h3{
+.success-stories .stories-carousel .card .card-body h3 {
   font-size: 25px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
 }
 
-.success-stories .stories-carousel .card .card-body .results{
+.success-stories .stories-carousel .card .card-body .results {
   display: flex;
   align-items: center;
   color: #828282;
 }
 
-.success-stories .stories-carousel .card .card-body .results img{
+.success-stories .stories-carousel .card .card-body .results img {
   width: 26px;
   margin-right: 20px;
 }
 
-.success-stories .stories-carousel .card .card-body .results p{
+.success-stories .stories-carousel .card .card-body .results p {
   margin-top: 0;
 }
 
-.success-stories .stories-carousel .card .card-footer button{
+.success-stories .stories-carousel .card .card-footer button {
   display: block;
   margin-left: 0;
   border-radius: 5px;
@@ -399,22 +400,22 @@ figure{
   width: 100%;
 }
 
-.how-does-it-works{
+.how-does-it-works {
   background-color: #fffbf7;
   padding: 5% 10%;
   text-align: center;
 }
 
-.how-does-it-works .title{
+.how-does-it-works .title {
   color: #025157;
   font-size: 50px;
-  font-family: "Alegreya", serif;  
+  font-family: "Alegreya", serif;
   margin-top: 8px;
   line-height: 60px;
   font-weight: 400;
 }
 
-.how-does-it-works .description{
+.how-does-it-works .description {
   color: #46484c;
   font-size: 18px;
   font-weight: 400;
@@ -423,7 +424,7 @@ figure{
   margin-bottom: 16px;
 }
 
-.how-does-it-works button{
+.how-does-it-works button {
   font-size: 14px;
   font-weight: 600;
   height: 45px;
@@ -432,27 +433,27 @@ figure{
   margin-top: 6px;
 }
 
-.how-does-it-works .steps{
+.how-does-it-works .steps {
   margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.how-does-it-works .steps .card{
+.how-does-it-works .steps .card {
   border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
   border: 1px solid #dadada;
 }
 
-.how-does-it-works .steps .card .card-img-top{
+.how-does-it-works .steps .card .card-img-top {
   position: absolute;
   top: 25px;
   left: 25px;
   width: 21px;
 }
 
-.how-does-it-works .steps .card .card-body .card-title{
+.how-does-it-works .steps .card .card-body .card-title {
   font-size: 30px;
   font-family: "Alegreya", serif;
   color: #025157;
@@ -461,7 +462,7 @@ figure{
   line-height: 36px;
 }
 
-.how-does-it-works .steps .card .card-body .card-text{
+.how-does-it-works .steps .card .card-body .card-text {
   font-size: 15px;
   line-height: 1.5;
   color: #46484c;
@@ -470,20 +471,44 @@ figure{
   height: 85px;
 }
 
-.how-does-it-works .steps .card .card-body .btn{
+.how-does-it-works .steps .card .card-body .btn {
   font-size: 16px;
   font-weight: 600;
   color: #67b54b;
   line-height: 1.4;
   text-decoration: none;
 }
+/*
+.overlap{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1f1c32;
+}
 
+.overlap .frase{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.overlap .frase > span{
+  font-size: 22vw;
+  font-weight: 800;
+  text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+.frase span:not(:first-child){
+  margin-left: -0.23em;
+}*/
 /*.card{
   position: relative;
   display: flex;
   flex-direction: column;
 }*/
-
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
@@ -532,27 +557,35 @@ figure{
   .feature-image {
     display: none;
   }
-  .success-stories{
+  .success-stories {
     flex-direction: column;
     align-items: center;
     gap: 6em;
     padding: 5em 0em;
   }
-  .success-stories .overview{
+  .success-stories .overview {
     padding: 0em 2em;
     text-align: center;
   }
-  .success-stories .overview > h2{
+  .success-stories .overview > h2 {
     font-size: 30px;
     line-height: 1.1;
-  } 
-  .success-stories .overview p{
+  }
+  .success-stories .overview p {
     text-align: justify;
   }
-  .success-stories .stories-carousel #carouselExampleFade .carousel-inner .carousel-item .card .card-media figure img{
+  .success-stories
+    .stories-carousel
+    #carouselExampleFade
+    .carousel-inner
+    .carousel-item
+    .card
+    .card-media
+    figure
+    img {
     max-height: none;
   }
-  .how-does-it-works .steps{
+  .how-does-it-works .steps {
     grid-template: repeat(4, 1fr) / 1fr;
     padding-left: 0;
     padding-right: 0;

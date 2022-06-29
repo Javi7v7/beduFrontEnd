@@ -50,60 +50,55 @@
       </header>
     </section>-->
     <!--Barra de navegacion-->
-    <section class="fixed-header">
-      <nav
-        class="navbar navbar-expand-lg navbar-light"
-        style="background-color: fffbf7"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand logo" href="#">
-            <img
-              src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
-              alt="Matcha"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Platform</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Customers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0 actions justify-content-end">
-              <!--Acciones de usuario-->
-              <div class="actions">
-                <a href="">Sign in</a>
-                <button>Start free trial</button>
-              </div>
-            </form>
-          </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img
+            src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
+            alt="Matcha"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Platform</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 actions justify-content-end">
+            <!--Acciones de usuario-->
+            <div class="actions">
+              <a href="">Sign in</a>
+              <button>Start free trial</button>
+            </div>
+          </form>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
     <!--Introduccion a la pagina-->
     <section class="main">
       <h1>Construye tu blog...</h1>
@@ -292,7 +287,7 @@
           class="carousel slide carousel-fade"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner" style="padding-bottom: 45px">
             <div class="carousel-item active">
               <div class="card">
                 <div class="card-media">
@@ -401,24 +396,28 @@
               <!--<img src="https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png" class="d-block w-100" alt="...">-->
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
         </div>
       </article>
     </section>
@@ -429,7 +428,7 @@
         Your blog can be so much more than window dressing. Use Matcha’s simple
         formula to transform your blog into an ecommerce growth engine.
       </p>
-        <button>Explore the Platform</button>
+      <button>Explore the Platform</button>
       <div class="steps">
         <div class="card" style="width: 18rem">
           <img
@@ -455,7 +454,8 @@
           <div class="card-body">
             <h5 class="card-title">Promote</h5>
             <p class="card-text">
-              Use articles in email, social, and content ads to attract more site visitors.
+              Use articles in email, social, and content ads to attract more
+              site visitors.
             </p>
             <a href="#" class="btn">Drive morer site visitors →</a>
           </div>
@@ -469,7 +469,8 @@
           <div class="card-body">
             <h5 class="card-title">Capture</h5>
             <p class="card-text">
-              Turn readers into email subscribers and subscribers into customers.
+              Turn readers into email subscribers and subscribers into
+              customers.
             </p>
             <a href="#" class="btn">Grow your email list →</a>
           </div>
@@ -483,13 +484,15 @@
           <div class="card-body">
             <h5 class="card-title">Measure</h5>
             <p class="card-text">
-              See what’s working and what’s not to easily optimize for more traffic, email subscribers, and sales.
+              See what’s working and what’s not to easily optimize for more
+              traffic, email subscribers, and sales.
             </p>
             <a href="#" class="btn">Track performance →</a>
           </div>
         </div>
       </div>
     </section>
+    <section class=""></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

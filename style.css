@@ -561,9 +561,17 @@ figure {
     max-height: none;
   }
   .how-does-it-works .steps {
+    display: grid;
     grid-template: repeat(4, 1fr) / 1fr;
     padding-left: 0;
     padding-right: 0;
+  }
+  .how-does-it-works .steps .card{
+    margin-top: 15px;
+  }
+
+  .container .row .col .card{
+    margin-top: 15px;
   }
 }
 

@@ -75,6 +75,10 @@
   border-radius: 5px;
 }
 
+.texto-boton:hover {
+  background-color: #67b54b;
+}
+
 li {
   display: inline;
   margin: 0 25px 0;
